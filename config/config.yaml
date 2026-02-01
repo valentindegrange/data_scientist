@@ -1,0 +1,17 @@
+# Configuration file for Data Engineering Master project
+
+# Data paths
+data:
+  raw: "data/raw"
+  processed: "data/processed"
+  output: "data/output"
+
+# Processing settings
+processing:
+  batch_size: 1000
+  parallel: false
+
+# Logging
+logging:
+  level: "INFO"
+  file: "logs/pipeline.log"
